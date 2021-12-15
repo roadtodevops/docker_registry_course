@@ -2,5 +2,5 @@
 
 Сборка сервиса
 ```
-docker build -t test -f apps/api/Dockerfile .
+docker-compose -f docker-compose.yml -f docker-compose.api.yml up -d
 ```
